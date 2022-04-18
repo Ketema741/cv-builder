@@ -6,19 +6,16 @@ export default function Skill() {
   <div class='container'>
 
     
-  <header>
-    <button class="nav-toggle" aria-label="toggle navigation">
-            <span class="hamburger"></span>
-        </button>
-    <nav class="nav">
-        <ul class="nav__list">
-            <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-            <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
-            <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
-            <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
-        </ul>
-    </nav>
-</header>
+  <nav>
+  <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Skill</a></li>
+      <li><a href="#">Education</a></li>
+      <li><a href="#">About Me</a></li>
+      <li><a href="#">Contact</a></li>
+     
+  </ul>
+</nav>
 
     <div class='user_info'>
         <h2>Your Information</h2>
